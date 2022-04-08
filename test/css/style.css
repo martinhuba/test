@@ -1,0 +1,125 @@
+body {
+	background-image: linear-gradient(
+        90deg,
+        hsl(0deg 0% 0%) 0%,
+        hsl(184deg 85% 13%) 10%,
+        hsl(184deg 85% 13%) 21%,
+        hsl(0deg 0% 0%) 100%
+        );
+	color: #B3B3B3;
+	font-family: 'IBM Plex Mono', monospace, sans-serif;
+}
+
+/* about me */
+article {
+	border: 1px solid rgb(25, 105, 49);
+	border-radius: 9px;
+	padding: 50px;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 820px;
+}
+
+.aboutMe {
+    text-align: left;
+    padding: 60px 20px;
+}
+
+.aboutMe button {
+    width: 150px;
+    padding:  10px 20px;
+    background-color: rgba(26, 63, 46, 0.002);
+    color: #B3B3B3;
+    box-shadow: inset 0 0 10px #2c6b51;
+    outline: none;
+    border: 1px solid rgb(77, 210, 117);
+    border-radius: 9px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-style: bold;
+    font-size: 13px;
+}
+
+.aboutMe button:hover,
+.aboutMe button:active {
+    box-shadow: inset 0 0 10px #349e72;
+    border: 1px solid rgb(113, 243, 21);
+}
+
+
+a {
+	color: rgb(77, 210, 117);
+	font-weight: bold;
+}
+
+a:hover, a:active {
+	color: #bada55;
+}
+
+.highlighted {
+	color: #bada55;
+}
+
+ol, ul {
+	color: #ccc;
+	font-size: 75%;
+	text-align: left;
+}
+
+/* svg */
+.svg-icon {
+    width: 60px;
+    stroke: #B3B3B3;
+}
+
+.user {
+    text-align: center;
+    margin: 70px auto;
+}
+
+.container {
+    text-align: center;
+}
+
+/* skills */
+#skills-section {
+    border: 1px solid rgb(25, 105, 49);
+	border-radius: 9px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+	padding: 50px;
+	margin-top: 60px;
+    margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 820px;
+}
+
+.progress {
+    width: 100px max-content 10%;
+    height: 5px;
+    background-color: rgb(20, 14, 12);
+    border-radius: 10px;
+}
+
+.progress .progress-bar {
+    width: 50%;
+    opacity: 0;
+    height: 100%;
+    background-color: rgb(51, 187, 33);
+    border-radius: 10px;
+    position: relative;
+    transition: all .5s;
+}
+
+.progress-bar span {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 0;
+}
+
+/* footer */
